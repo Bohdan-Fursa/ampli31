@@ -1,3 +1,28 @@
+.Chat {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+input {
+  font-size: 15px;
+  padding: 10px;
+}
+button {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +51,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Chat {
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes App-logo-spin {
